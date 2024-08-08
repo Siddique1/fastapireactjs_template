@@ -1,6 +1,7 @@
 fastapi
 uvicorn
 pydantic
+pydantic_settings
 sqlalchemy
 asyncpg
 sqlalchemy[asyncio]
@@ -11,3 +12,5 @@ authlib
 stripe
 python-jose
 python-dotenv
+alembic
+fastapi[standard]

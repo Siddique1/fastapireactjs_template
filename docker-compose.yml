@@ -11,9 +11,9 @@ services:
   db:
     image: postgres:13
     environment:
-      POSTGRES_USER: yourusername
-      POSTGRES_PASSWORD: yourpassword
-      POSTGRES_DB: yourdbname
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: fastapi_reactjs
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
