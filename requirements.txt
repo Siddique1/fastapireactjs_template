@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+asyncpg
+sqlalchemy[asyncio]
+passlib[bcrypt]
+python-jose
+fastapi-users
+authlib
+stripe
+python-jose
+python-dotenv
