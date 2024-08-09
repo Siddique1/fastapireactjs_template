@@ -13,7 +13,8 @@ This repo is running basic user model in postgresql on api interface and success
 
 ## Task list
 - [x] basic user (only user table) with CRUD operation in local PC development. Tested on document interface http://localhost:8000/docs#/. The password is plain text not yet hash implemented.
-- [ ] Role Based Access Control (RBAC) functionality in user model and decide whatever table to add. This is also local dev server. Also ensure database password hashed.
+- [x] Role Based Access Control (RBAC) functionality in user model implemented by adding two more tables. One table roles which tally id(PK) autoincrement with it's description explaining it's role and access. Second table user_roles which record which user_id have which role_id. 
+- [x] JWT token mechanism is added. A login end point is also added to verify JWT token functionality and future login for front-end.
 - [ ] Basic reactjs based frontend to run on local PC and send/receive user data to fastapi backend server.
 - [ ] Docker based implementation.
 - [ ] plan and implement a product database table(s) and connection and implement it.
